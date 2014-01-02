@@ -13,10 +13,7 @@
 			"ResqueScheduler": "lib/"
 		}
 	},
-	"repositories": [
-		{ "type": "git", "url": "https://github.com/chrisboulton/php-resque" }
-	],
 	"require-dev": {
-		"chrisboulton/php-resque": "dev-master"
+		"chrisboulton/php-resque": "~1.0"
 	}
 }
