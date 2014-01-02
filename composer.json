@@ -1,0 +1,22 @@
+{
+	"name": "chrisboulton/php-resque-statsd",
+	"type": "library",
+	"description": "Submit metrics for your php-resque jobs into StatsD/Graphite",
+	"authors": [
+		{
+			"name": "Chris Boulton",
+			"email": "chris@bigcommerce.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"ResqueScheduler": "lib/"
+		}
+	},
+	"repositories": [
+		{ "type": "git", "url": "https://github.com/chrisboulton/php-resque" }
+	],
+	"require-dev": {
+		"chrisboulton/php-resque": "dev-master"
+	}
+}
